@@ -1127,7 +1127,8 @@ img { max-width: 100%; height: auto; }
         width: 100%;
         margin: 0.5rem 0 !important;
     }
-    .destinasi-card { height: 220px; }
+    .keunggulan-card { text-align: center; }
+    .keunggulan-icon { margin-left: auto; margin-right: auto; }
     .proses-number { font-size: 3rem; }
     .scroll-top-float {
         width: 44px;
@@ -1180,4 +1181,69 @@ img { max-width: 100%; height: auto; }
 .hide-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+/* ARTICLE CUSTOM STYLES */
+.article-content h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#tocList {
+    display: none;
+    margin-top: 1rem;
+}
+#tocList.show {
+    display: block;
+}
+
+/* AUTHOR BIO & SHARE BUTTONS */
+.author-box-bg {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+}
+.author-box-inner {
+    background-color: #2a2a2a;
+}
+.share-btn-circle {
+    width: 38px;
+    height: 38px;
+    background-color: #333;
+    transition: 0.3s;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.share-btn-circle:hover {
+    background-color: #f29e24;
+    color: #fff;
+}
+
+/* BACA JUGA BLOCK */
+.baca-juga-box {
+    background-color: #fffaf0;
+    border-left: 4px solid #f29e24;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+.baca-juga-box i {
+    color: #f29e24;
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
+}
+.baca-juga-box strong {
+    color: #2B2B2B;
+    margin-right: 0.5rem;
+}
+.baca-juga-box a {
+    color: #6B1B2A;
+    font-weight: 600;
+}
+.baca-juga-box a:hover {
+    color: #f29e24;
 }

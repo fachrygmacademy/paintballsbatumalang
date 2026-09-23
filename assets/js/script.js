@@ -21,12 +21,12 @@ const keunggulanData = [
 ];
 
 const programData = [
-    { title: 'Paintball', desc: 'Aktivitas strategi dan teamwork dengan pengalaman outdoor yang seru.', image: 'assets/img/unsplash/img-1.webp', link: getProgramLink('paintball.html') },
-    { title: 'Team Building', desc: 'Aktivitas yang dirancang untuk membangun komunikasi dan kolaborasi.', image: 'assets/img/unsplash/img-2.webp', link: getProgramLink('team-building.html') },
-    { title: 'Corporate Gathering', desc: 'Konsep kegiatan outdoor untuk perusahaan dan instansi.', image: 'assets/img/unsplash/img-3.webp', link: getProgramLink('corporate-gathering.html') },
-    { title: 'Outbound', desc: 'Berbagai aktivitas outdoor yang dapat disesuaikan dengan kebutuhan peserta.', image: 'assets/img/unsplash/img-4.webp', link: getProgramLink('outbound.html') },
-    { title: 'Family Gathering', desc: 'Aktivitas santai dan menyenangkan untuk keluarga atau kelompok.', image: 'assets/img/unsplash/img-5.webp', link: getProgramLink('family-gathering.html') },
-    { title: 'Outdoor Adventure', desc: 'Berbagai pengalaman adventure di alam terbuka.', image: 'assets/img/unsplash/img-6.webp', link: getProgramLink('outdoor-adventure.html') }
+    { title: 'Paintball', desc: 'Aktivitas strategi dan teamwork dengan pengalaman outdoor yang seru.', image: 'assets/img/program/paintsball.webp', link: getProgramLink('paintball.html') },
+    { title: 'Team Building', desc: 'Aktivitas yang dirancang untuk membangun komunikasi dan kolaborasi.', image: 'assets/img/program/team-building-paintsball.webp', link: getProgramLink('team-building.html') },
+    { title: 'Corporate Gathering', desc: 'Konsep kegiatan outdoor untuk perusahaan dan instansi.', image: 'assets/img/program/corporates-paintsball.webp', link: getProgramLink('corporate-gathering.html') },
+    { title: 'Outbound', desc: 'Berbagai aktivitas outdoor yang dapat disesuaikan dengan kebutuhan peserta.', image: 'assets/img/program/ourbounds-paintball.webp', link: getProgramLink('outbound.html') },
+    { title: 'Family Gathering', desc: 'Aktivitas santai dan menyenangkan untuk keluarga atau kelompok.', image: 'assets/img/program/family-gatherings-paintsball.webp', link: getProgramLink('family-gathering.html') },
+    { title: 'Outdoor Adventure', desc: 'Berbagai pengalaman adventure di alam terbuka.', image: 'assets/img/program/outbounds-adventure-paintsball.webp', link: getProgramLink('outdoor-adventure.html') }
 ];
 
 const corporateBenefits = [
@@ -44,29 +44,29 @@ const prosesData = [
 ];
 
 const destinasiData = [
-    { name: 'Batu Malang', image: 'assets/img/unsplash/img-7.webp' },
-    { name: 'Coban Rondo', image: 'assets/img/unsplash/img-8.webp' },
-    { name: 'Trawas', image: 'assets/img/unsplash/img-9.webp' },
-    { name: 'Tretes', image: 'assets/img/unsplash/img-10.webp' },
-    { name: 'Pacet Mojokerto', image: 'assets/img/unsplash/img-11.webp' },
-    { name: 'Lembah Tumpang', image: 'assets/img/unsplash/img-12.webp' },
-    { name: 'Bromo', image: 'assets/img/unsplash/img-13.webp' },
-    { name: 'Pantai Malang Selatan', image: 'assets/img/unsplash/img-14.webp' }
+    { name: 'Batu Malang', image: 'assets/img/lokasi/batu-malangs.webp' },
+    { name: 'Coban Rondo', image: 'assets/img/lokasi/coban-rondo.webp' },
+    { name: 'Trawas', image: 'assets/img/lokasi/trawas-mojokerto.webp' },
+    { name: 'Tretes', image: 'assets/img/lokasi/tretes-prigen.webp' },
+    { name: 'Pacet Mojokerto', image: 'assets/img/lokasi/pacet-mojokerto.webp' },
+    { name: 'Lembah Tumpang', image: 'assets/img/lokasi/lembah-tumpang-malang.webp' },
+    { name: 'Bromo', image: 'assets/img/lokasi/bromo.webp' },
+    { name: 'Pantai Malang Selatan', image: 'assets/img/lokasi/pantai-malang-selatan.webp' }
 ];
 
 const galleryData = [
-    { category: 'paintball', image: 'assets/img/unsplash/img-15.webp', alt: 'Paintball activity' },
-    { category: 'team-building', image: 'assets/img/unsplash/img-16.webp', alt: 'Team building' },
-    { category: 'gathering', image: 'assets/img/unsplash/img-17.webp', alt: 'Gathering' },
-    { category: 'outbound', image: 'assets/img/unsplash/img-18.webp', alt: 'Outbound' },
-    { category: 'paintball', image: 'assets/img/unsplash/img-19.webp', alt: 'Paintball action' },
-    { category: 'adventure', image: 'assets/img/unsplash/img-20.webp', alt: 'Adventure' },
-    { category: 'team-building', image: 'assets/img/unsplash/img-21.webp', alt: 'Team collaboration' },
+    { category: 'paintball', image: 'assets/img/galeri/tempat-paintball-terbaik.webp', alt: 'Paintball activity' },
+    { category: 'team-building', image: 'assets/img/galeri/team-building-paintballs.webp', alt: 'Team building' },
+    { category: 'gathering', image: 'assets/img/galeri/gathering-paintball.webp', alt: 'Gathering' },
+    { category: 'outbound', image: 'assets/img/galeri/vendor-outbounds-paintball.webp', alt: 'Outbound' },
+    { category: 'paintball', image: 'assets/img/galeri/manfaatnya-paintball.webp', alt: 'Paintball action' },
+    { category: 'adventure', image: 'assets/img/galeri/advantures-paintball.webp', alt: 'Adventure' },
+    { category: 'team-building', image: 'assets/img/galeri/teams-corporate-paintball.webp', alt: 'Team collaboration' },
     { category: 'gathering', image: 'assets/img/hero-paintball.webp', alt: 'Gathering event' },
-    { category: 'outbound', image: 'assets/img/unsplash/img-23.webp', alt: 'Outdoor activity' },
+    { category: 'outbound', image: 'assets/img/galeri/paket-outbounds-paintball.webp', alt: 'Outdoor activity' },
     { category: 'adventure', image: 'assets/img/paintball-action.webp', alt: 'Adventure activity' },
     { category: 'paintball', image: 'assets/img/team-paintball.webp', alt: 'Paintball team' },
-    { category: 'team-building', image: 'assets/img/unsplash/img-1.webp', alt: 'Team workshop' }
+    { category: 'team-building', image: 'assets/img/galeri/teams-building-paintball.webp', alt: 'Team workshop' }
 ];
 
 const testimonialData = [
@@ -76,9 +76,9 @@ const testimonialData = [
 ];
 
 const blogData = [
-    { category: 'Paintball', title: 'Mengapa Paintball Cocok untuk Team Building Perusahaan', excerpt: 'Paintball bukan sekadar permainan, tetapi aktivitas yang melatih strategi, komunikasi, dan kekompakan tim dalam suasana outdoor yang seru.', image: 'assets/img/unsplash/img-27.webp', date: '20 Sep 2026', readTime: '5 min', link: 'mengapa-paintball-cocok-untuk-team-building-perusahaan.html' },
-    { category: 'Outbound', title: 'Manfaat Outbound untuk Pengembangan Tim', excerpt: 'Outbound menjadi salah satu metode efektif untuk meningkatkan komunikasi, kepercayaan, dan kolaborasi antar anggota tim.', image: 'assets/img/unsplash/img-12.webp', date: '18 Sep 2026', readTime: '4 min', link: 'manfaat-outbound-untuk-pengembangan-tim.html' },
-    { category: 'Team Building', title: 'Tips Merancang Kegiatan Team Building yang Efektif', excerpt: 'Team building yang baik harus dirancang berdasarkan tujuan acara, karakter peserta, dan kebutuhan perusahaan.', image: 'assets/img/unsplash/img-13.webp', date: '15 Sep 2026', readTime: '6 min', link: 'tips-merancang-kegiatan-team-building-yang-efektif.html' }
+    { category: 'Paintball', title: 'Mengapa Paintball Cocok untuk Team Building Perusahaan', excerpt: 'Paintball bukan sekadar permainan, tetapi aktivitas yang melatih strategi, komunikasi, dan kekompakan tim dalam suasana outdoor yang seru.', image: 'assets/img/paket-corporate-gathering.webp', date: '20 Sep 2026', readTime: '5 min', link: 'mengapa-paintball-cocok-untuk-team-building-perusahaan.html' },
+    { category: 'Outbound', title: 'Manfaat Outbound untuk Pengembangan Tim', excerpt: 'Outbound menjadi salah satu metode efektif untuk meningkatkan komunikasi, kepercayaan, dan kolaborasi antar anggota tim.', image: 'assets/img/team-paintball.webp', date: '18 Sep 2026', readTime: '4 min', link: 'manfaat-outbound-untuk-pengembangan-tim.html' },
+    { category: 'Team Building', title: '7 Tips Merancang Kegiatan Team Building yang Efektif', excerpt: 'Team building yang baik harus dirancang berdasarkan tujuan acara, karakter peserta, dan kebutuhan perusahaan.', image: 'assets/img/team-building-paintsball.webp', date: '15 Sep 2026', readTime: '6 min', link: 'tips-merancang-kegiatan-team-building-yang-efektif.html' }
 ];
 
 const faqData = [
@@ -178,7 +178,7 @@ function renderDestinasi() {
     const grid = document.getElementById('destinasiGrid');
     if (!grid) return;
     grid.innerHTML = destinasiData.map(item => `
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="destinasi-card">
                 <img src="${item.image}" alt="Destinasi ${item.name}" loading="lazy">
                 <div class="destinasi-overlay">
@@ -200,14 +200,19 @@ function renderGalleryFilter(containerId) {
 function renderGallery(containerId, filter = 'all') {
     const grid = document.getElementById(containerId);
     if (!grid) return;
-    const filtered = filter === 'all' ? galleryData : galleryData.filter(g => g.category === filter);
+
+    let filtered = filter === 'all' ? galleryData : galleryData.filter(g => g.category === filter);
+    let colClass = "col-6 col-sm-6 col-md-4 col-lg-3";
+
+    if (containerId === 'galeriGrid') {
+        filtered = filtered.slice(0, 6);
+        colClass = "col-6 col-md-4";
+    }
+
     grid.innerHTML = filtered.map(item => `
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 gallery-col" data-category="${item.category}">
+        <div class="${colClass} gallery-col" data-category="${item.category}">
             <div class="gallery-item" data-image="${item.image}" data-alt="${item.alt}">
                 <img src="${item.image}" alt="${item.alt}" loading="lazy">
-                <div class="gallery-item-overlay">
-                    <i class="bi bi-zoom-in"></i>
-                </div>
             </div>
         </div>
     `).join('');
@@ -232,7 +237,7 @@ function renderTestimonial() {
     const grid = document.getElementById('testimonialGrid');
     if (!grid) return;
     grid.innerHTML = testimonialData.map(item => `
-        <div class="col-10 col-md-6 col-lg-4">
+        <div class="col-10 col-md-6 col-lg-4 flex-shrink-0">
             <div class="testimonial-card">
                 <p class="testimonial-text">${item.text}</p>
                 <div class="testimonial-author">
@@ -352,7 +357,7 @@ function initNavbarScroll() {
 
 function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
                 e.preventDefault();
@@ -379,6 +384,70 @@ function initScrollToTop() {
     });
 }
 
+function initBlogSearch() {
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+    
+    if (!searchInput || !searchBtn) return;
+    
+    const performSearch = () => {
+        const query = searchInput.value.toLowerCase().trim();
+        const grid = document.getElementById('blogGridFull');
+        if (!grid) return;
+        
+        const featured = document.getElementById('blogFeatured');
+        const desktopTitle = document.getElementById('desktopBlogTitle');
+        const pagination = document.getElementById('blogPagination');
+        
+        if (query) {
+            if (featured) featured.style.display = 'none';
+            if (desktopTitle) desktopTitle.style.display = 'none';
+            if (pagination) pagination.style.setProperty('display', 'none', 'important');
+            
+            const filtered = blogData.filter(item => item.title.toLowerCase().includes(query) || item.excerpt.toLowerCase().includes(query) || item.category.toLowerCase().includes(query));
+            
+            if (filtered.length === 0) {
+                grid.innerHTML = '<div class="col-12 text-center py-5"><p>Artikel tidak ditemukan.</p></div>';
+            } else {
+                grid.innerHTML = filtered.map(item => `
+        <div class="col-lg-4 col-md-6">
+            <article class="blog-card">
+                <div class="blog-card-img">
+                    <img src="${item.image}" alt="${item.title}" loading="lazy">
+                </div>
+                <div class="blog-card-body">
+                    <span class="blog-category">${item.category}</span>
+                    <h4><a href="${item.link || '#'}">${item.title}</a></h4>
+                    <p class="blog-excerpt">${item.excerpt}</p>
+                    <div class="blog-meta">
+                        <span><i class="bi bi-calendar3 me-1"></i>${item.date}</span>
+                        <a href="${item.link || '#'}" class="blog-read-more">Read more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    `).join('');
+            }
+        } else {
+            if (featured) featured.style.display = 'block';
+            if (desktopTitle) desktopTitle.style.display = '';
+            if (pagination) {
+                if (blogData.length > 6) {
+                    pagination.style.display = 'flex';
+                } else {
+                    pagination.style.setProperty('display', 'none', 'important');
+                }
+            }
+            renderBlogCards('blogGridFull');
+        }
+    };
+
+    searchBtn.addEventListener('click', performSearch);
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') performSearch();
+    });
+}
+
 // ============ INIT ============
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -388,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCorporateBenefits();
     renderProses();
     renderDestinasi();
-    renderGalleryFilter('galleryFilter');
+    // renderGalleryFilter('galleryFilter');
     renderGallery('galeriGrid');
     renderTestimonial();
     renderBlogCards('blogGrid', 3);
@@ -424,4 +493,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initNavbarScroll();
     initSmoothScroll();
     initScrollToTop();
+    initBlogSearch();
 });

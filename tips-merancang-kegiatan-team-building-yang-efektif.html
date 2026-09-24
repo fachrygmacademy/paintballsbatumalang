@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -41,13 +41,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- Preload LCP Image -->
+    <link rel="preload" href="assets/img/unsplash/img-36.webp" as="image">
+
     <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" as="style" fetchpriority="high"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" href="assets/css/style.min.css" as="style" fetchpriority="high"> <link rel="stylesheet" href="assets/css/style.min.css">
     <!-- JSON-LD Schemas -->
     <script type="application/ld+json">
 {
@@ -273,8 +276,8 @@
 
                         <h2>6. Keluar dari Zona Nyaman (Out of Office Environment)</h2>
                         <p>Hindari melakukan <em>team building</em> di area kantor atau aula yang sering
-                            digunakan untuk rapat. Membawa tim ke lingkungan yang sama sekali baru—khususnya
-                            ke alam terbuka yang sejuk—sangat efektif untuk menurunkan tingkat stres
+                            digunakan untuk rapat. Membawa tim ke lingkungan yang sama sekali baruâ€”khususnya
+                            ke alam terbuka yang sejukâ€”sangat efektif untuk menurunkan tingkat stres
                             (cortisol) dan memicu kreativitas. Kawasan seperti Batu Malang dengan deretan
                             hutan pinus dan pegunungannya selalu menjadi primadona untuk tujuan ini.</p>
 
@@ -495,7 +498,7 @@
             </div>
             <hr class="footer-divider">
             <div class="text-center">
-                <p class="copyright mb-0">© 2026 Paintball Batu Malang. All rights reserved.</p>
+                <p class="copyright mb-0">Â© 2026 Paintball Batu Malang. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -562,3 +565,7 @@
 </body>
 
 </html>
+
+
+
+

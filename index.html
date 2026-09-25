@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -43,11 +43,13 @@
 
     
 
-    <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Preload LCP Hero Image -->
+    <link rel="preload" as="image" href="assets/img/hero-paintball.webp" fetchpriority="high">
+
+    <link rel="preload" href="assets/css/style.css" as="style">
+
     <link rel="stylesheet" href="assets/css/style.css">
+
     <!-- JSON-LD Schemas -->
     <script type="application/ld+json">
 {
@@ -152,7 +154,7 @@
         </div>
     </nav>
 
-    <section class="hero-section hero-no-bg"> <img src="assets/img/hero-paintball.webp" alt="Paintball Batu Malang Outdoor Event" fetchpriority="high" class="hero-img-bg"> <div class="hero-overlay hero-overlay-z"></div>
+    <section class="hero-section hero-no-bg"> <img src="assets/img/hero-paintball.webp" alt="Paintball Batu Malang Outdoor Event" fetchpriority="high" decoding="async" width="1920" height="1080" class="hero-img-bg"> <div class="hero-overlay hero-overlay-z"></div>
         <div class="hero-content">
             <div class="container">
                 <div class="row justify-content-center">
@@ -167,7 +169,7 @@
                                 Program</a>
                             <a href="program.html" class="btn btn-outline-light btn-lg mb-2">Lihat Program</a>
                         </div>
-                        <p class="hero-tags mt-4">Paintball â€¢ Team Building â€¢ Gathering â€¢ Outbound â€¢ Outdoor Adventure
+                        <p class="hero-tags mt-4">Paintball &bull; Team Building &bull; Gathering &bull; Outbound &bull; Outdoor Adventure
                         </p>
                     </div>
                 </div>

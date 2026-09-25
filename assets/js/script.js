@@ -1,4 +1,4 @@
-﻿/* ========================================
+/* ========================================
    PAINTBALL BATU MALANG - DATA & LOGIC
    ======================================== */
 
@@ -134,7 +134,7 @@ function renderProgramCards(containerId, showAll = false) {
         <div class="col-lg-4 col-md-6">
             <div class="program-card">
                 <div class="program-card-img">
-                    <img src="${item.image}" alt="${item.title} di Batu Malang" loading="lazy" width="800" height="600">
+                    <img src="${item.image}" alt="${item.title} di Batu Malang" loading="lazy" width="800" height="600" decoding="async">
                 </div>
                 <div class="program-card-body">
                     <h4>${item.title}</h4>
@@ -180,7 +180,7 @@ function renderDestinasi() {
     grid.innerHTML = destinasiData.map(item => `
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="destinasi-card">
-                <img src="${item.image}" alt="Destinasi ${item.name}" loading="lazy" width="800" height="600">
+                <img src="${item.image}" alt="Destinasi ${item.name}" loading="lazy" width="800" height="600" decoding="async">
                 <div class="destinasi-overlay">
                     <h5>${item.name}</h5>
                 </div>
@@ -212,7 +212,7 @@ function renderGallery(containerId, filter = 'all') {
     grid.innerHTML = filtered.map(item => `
         <div class="${colClass} gallery-col" data-category="${item.category}">
             <div class="gallery-item" data-image="${item.image}" data-alt="${item.alt}">
-                <img src="${item.image}" alt="${item.alt}" loading="lazy" width="800" height="600">
+                <img src="${item.image}" alt="${item.alt}" loading="lazy" width="800" height="600" decoding="async">
             </div>
         </div>
     `).join('');
@@ -260,7 +260,7 @@ function renderBlogCards(containerId, limit = null) {
         <div class="col-lg-4 col-md-6">
             <article class="blog-card">
                 <div class="blog-card-img">
-                    <img src="${item.image}" alt="${item.title}" loading="lazy" width="800" height="600">
+                    <img src="${item.image}" alt="${item.title}" loading="lazy" width="800" height="600" decoding="async">
                 </div>
                 <div class="blog-card-body">
                     <span class="blog-category">${item.category}</span>
@@ -284,7 +284,7 @@ function renderBlogFeatured() {
         <div class="row g-0">
             <div class="col-md-5">
                 <div class="blog-featured-img">
-                    <img src="${item.image}" alt="${item.title}" loading="lazy" width="800" height="600">
+                    <img src="${item.image}" alt="${item.title}" loading="lazy" width="800" height="600" decoding="async">
                 </div>
             </div>
             <div class="col-md-7">
@@ -413,7 +413,7 @@ function initBlogSearch() {
         <div class="col-lg-4 col-md-6">
             <article class="blog-card">
                 <div class="blog-card-img">
-                    <img src="${item.image}" alt="${item.title}" loading="lazy" width="800" height="600">
+                    <img src="${item.image}" alt="${item.title}" loading="lazy" width="800" height="600" decoding="async">
                 </div>
                 <div class="blog-card-body">
                     <span class="blog-category">${item.category}</span>
